@@ -1,0 +1,26 @@
+{Error using conn_process (line 273)
+ERROR: Missing experimental conditions on Subject 1
+ERROR: Subject 1 does not have any scan associated with condition 1_rest. If
+this is expected/correct please select 'Allow missing data' in Setup.Conditions
+to avoid this error message
+ERROR: Subject 2 does not have any scan associated with condition 3_rest. If
+this is expected/correct please select 'Allow missing data' in Setup.Conditions
+to avoid this error message
+ERROR: Subject 3 does not have any scan associated with condition 1_rest. If
+this is expected/correct please select 'Allow missing data' in Setup.Conditions
+to avoid this error message
+ERROR: Subject 4 does not have any scan associated with condition 1_rest. If
+this is expected/correct please select 'Allow missing data' in Setup.Conditions
+to avoid this error message
+
+
+Error in conn_process (line 50)
+            case 'setup',           conn_disp(['CONN: RUNNING SETUP STEP']);
+            conn_process([0:4,4.5,5]);
+
+Error in conn_batch (line 1264)
+            conn_process Setup;
+
+Error in CONNscript (line 4)
+conn_batch('Setup.done',true)
+} 
