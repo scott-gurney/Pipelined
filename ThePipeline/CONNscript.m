@@ -1,0 +1,8 @@
+addpath('/gpfs/home/uqe18wbu/Downloads/spm12')
+addpath('/gpfs/home/uqe18wbu/Downloads/conn')
+load('/gpfs/home/uqe18wbu/scratch/example.mat')
+%conn_batch('Setup.conditions.missingdata', true)
+conn_batch('Setup.done',true)
+conn_batch('Denoising.done',true)
+conn_batch('Analysis.name','RRC','Analysis.type', 'ROI-to-ROI','Analysis.weight', 'none', 'Analysis.done', true)
+%%conn_batch('vvAnalysis.name', 'group-MVPA', 'vvAnalysis.measures', 'group-MVPA', 'vvAnalysis.done', true)
