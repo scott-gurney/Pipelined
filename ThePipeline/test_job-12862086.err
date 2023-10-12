@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "MainScript_Setup.py", line 324, in <module>
-    main()
-  File "MainScript_Setup.py", line 46, in main
-    if re.fullmatch(r"\d*_S_\d*",subject):
-AttributeError: 'module' object has no attribute 'fullmatch'

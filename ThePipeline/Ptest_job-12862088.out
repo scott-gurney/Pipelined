@@ -1,6 +1,0 @@
-##########
-Pipeline (Preprocessing) Starting
-Usage: Provide a filepath location to a folder where the setup has occured.
-('File path provided is ', '/gpfs/home/uqe18wbu/ExperimentOne')
-Checking expected folders appear in the directory
-ERROR: bids folder not found in source directory. Please check setup exited successfully!
